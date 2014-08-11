@@ -1,0 +1,56 @@
+Establishments
+{
+	_id: "Bar Name",
+	Beers:[
+	
+	],
+   Address: {
+		StreeNo: "",
+		StreetName: "",
+		City: "",
+		Provice: "",
+		Country: "",
+		Postal: ""
+   },
+    Contact: {
+		Phone: "",
+		email: "",
+		url: "",
+		twitter: "",
+		facebook: "",
+    },
+	Hours: ""
+}
+
+
+Beers
+{
+	_id: "",
+	BeerName: "",
+	Description: "",
+	brewer_id: "",
+}
+
+
+Brewer
+{
+	_id: "",
+	name: "",
+    Address: {
+		StreeNo: "",
+		StreetName: "",
+		City: "",
+		Provice: "",
+		Country: "",
+		Postal: ""
+    },
+    Contact: {
+		Phone: "",
+		email: "",
+		url: "",
+		twitter: "",
+		facebook: "",
+    },
+	logo: "",
+	hastours: ""
+}
