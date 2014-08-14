@@ -9,6 +9,14 @@ angular.module('angularFullStackDemoApp')
     {
       'title': 'Beers',
       'link': '/beers'
+    },
+    {
+      'title': 'Brewers',
+      'link': '/brewers'
+    },
+    {
+      'title': 'Establishments',
+      'link': '/establishments'
     }];
 
     $scope.isCollapsed = true;

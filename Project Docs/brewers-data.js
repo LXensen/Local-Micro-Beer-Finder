@@ -16,9 +16,8 @@ Brewers
 		url: "",
 		twitter: "",
 		facebook: "",
-   }
-   Logo: "",
-   HasTours:
+   },
+   Logo: ""
 },
 
 {
@@ -38,9 +37,8 @@ Brewers
 		url: "",
 		twitter: "",
 		facebook: "",
-   }
-   Logo: "",
-   HasTours:
+   },
+   Logo: ""
 },
 
 {
@@ -60,7 +58,6 @@ Brewers
 		url: "",
 		twitter: "",
 		facebook: "",
-   }
-   Logo: "",
-   HasTours:
-},
+   },
+   Logo: ""
+}

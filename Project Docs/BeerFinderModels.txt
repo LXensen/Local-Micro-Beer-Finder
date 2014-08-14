@@ -1,56 +1,60 @@
 Establishments
 {
 	_id: "Bar Name",
-	Beers:[
-	
-	],
+	Name: String,
+	AvailableBeers: [Beer],
    Address: {
-		StreeNo: "",
-		StreetName: "",
-		City: "",
+		StreeNo: String,
+		StreetName: String,
+		City: String,
 		Provice: "",
 		Country: "",
-		Postal: ""
+		Postal: String
    },
     Contact: {
-		Phone: "",
-		email: "",
-		url: "",
-		twitter: "",
-		facebook: "",
+		Phone: String,
+		email: String,
+		url: String,
+		twitter: String,
+		facebook: String
     },
-	Hours: ""
+	Hours: String
 }
 
 
-Beers
+Beer
 {
 	_id: "",
-	BeerName: "",
-	Description: "",
-	brewer_id: "",
+	Name: String,
+	Description: String,
+	specs: {
+		ABV: Number,
+		IBU: Number,
+		OG: Number,
+		FG: Number
+	}
+	brewer_id: ""
 }
 
 
 Brewer
 {
 	_id: "",
-	name: "",
+	name: String,
     Address: {
-		StreeNo: "",
-		StreetName: "",
-		City: "",
+		StreeNo: String,
+		StreetName: String,
+		City: String,
 		Provice: "",
 		Country: "",
-		Postal: ""
+		Postal: String
     },
     Contact: {
-		Phone: "",
-		email: "",
-		url: "",
-		twitter: "",
-		facebook: "",
+		Phone: String,
+		email: String,
+		url: String,
+		twitter: String,
+		facebook: String
     },
-	logo: "",
-	hastours: ""
+	logo: String
 }
